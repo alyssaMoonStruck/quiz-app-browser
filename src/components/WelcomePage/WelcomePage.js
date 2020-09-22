@@ -11,7 +11,7 @@ const Welcome = () => {
           <img className="card-img" src="https://pm-site-assets-py4.s3.us-east-2.amazonaws.com/products/legacy/rose_gold_metallic_sq.jpg" alt="Card image"/>
           <div className="card-img-overlay">
             <h5 className="card-title m-4">Ready To Test Your Knowledge?</h5>
-            <p className="card-text m-2">Get pumped and get ready to <br/> test your brain on <br/> everything from Actors to  Countries <br/> to Food! History Buff, Comic Nerd <br/> and Sports Fan, this is the <br/> game for you!</p>
+            <p className="card-text m-2">Get pumped and get ready to <br/> test your brain on everything <br/> from Actors to Countries to Food! <br/> History Buff, Comic Nerd <br/> or Sports Fan, this is the <br/> game for you!</p>
           </div>
         </div>
       </div>

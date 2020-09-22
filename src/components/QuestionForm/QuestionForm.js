@@ -7,7 +7,7 @@ const QuestionForm = ({ question, handleSubmit, handleChange, cancelPath }) => {
   return (
     <div className="row2">
       <div className="col-sm-10 col-md-8 mx-auto mt-5">
-        <h3>Create Questions</h3>
+        <h3 id='createdQuestion'>Create Questions</h3>
         <Form onSubmit={handleSubmit}>
           <Form.Group controlId="question">
             <Form.Label>Question</Form.Label>

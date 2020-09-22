@@ -49,7 +49,7 @@ deleteQuestion = id => {
 render () {
   const questions = this.state.questions.map(question => (
     <div key={question._id} to={`/questions/${question._id}`}>
-      <div className="card cardHover border-dark mb-4 card-body">
+      <div className="card cardHover border-dark mb-4 card-body" style={{ width: '42rem', height: '17rem' }}>
         <div className="card-header text-white bg-dark mb-4" >
           {question.question}
         </div>
@@ -57,15 +57,15 @@ render () {
           {question.correct}
         </div>
         <Link to={`/edit-question/${question._id}`}>
-          <button className="btn btn">Edit</button>
+          <button className="btn btn-outline-success m-2">Edit</button>
         </Link>
-        <button type='button' className="btn btn-danger" onClick={() => this.deleteQuestion(question._id)}>Delete</button>
+        <button id='deleteBtn' type='button' className="btn btn-outline-danger" onClick={() => this.deleteQuestion(question._id)}>Delete</button>
       </div>
     </div>
   ))
   return (
     <div>
-      <h4 className="m-4" >Your Created Questions</h4>
+      <h4 id='yourQuestion' className="m-4" >Your Created Questions</h4>
       {questions}
     </div>
   )
