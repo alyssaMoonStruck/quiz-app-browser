@@ -2,9 +2,10 @@
 
 ## Important Links
 
-1. 
-2.
-
+1. Quiz!: https://alyssamoonstruck.github.io/quiz-app-browser/.
+2. Heroku Server: https://murmuring-brushlands-55314.herokuapp.com/.
+3. API Repo: https://github.com/alyssaMoonStruck/quiz-app-api.
+ 
 ## Planning Story
 
 My third full-stack project is here! Feeling nostalgic I decided to do another  game in honor of my first ever project! Using all of the tools and knowledge
