@@ -3,7 +3,7 @@ import { quiz } from '../api/quiz'
 import QuestionBox from '../components/QuestionBox'
 import Result from '../components/Results'
 
-const numOfQuestions = 10
+const numOfQuestions = 5
 
 function Quiz ({ user }) {
   const [questions, setQuestsions] = useState([])

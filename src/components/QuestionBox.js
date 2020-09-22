@@ -7,7 +7,7 @@ const QuestionBox = ({ question, selected }) => {
       {question.answers.map((text, index) => (
         <button
           key={index}
-          className={`answerBtn btn ${question.response !== text ? 'btn-outline-danger' : 'btn-danger'}`}
+          className={`answerBtn btn ${question.response !== text ? 'btn-outline-success' : 'btn-success'}`}
           onClick={e => {
             selected(text)
           }}
