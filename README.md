@@ -6,6 +6,7 @@
 2.
 
 ## Planning Story
+
 My third full-stack project is here! Feeling nostalgic I decided to do another  game in honor of my first ever project! Using all of the tools and knowledge
 I have gathered through each each course I plan to handle every bug that comes
 up with problem solving thinking, reffer to past resourses and work hard to find
@@ -43,7 +44,12 @@ to make sure I complete this project on time and working wonderfully!
 
 ## Wireframe
 
+[Wireframe](Wireframe4.jpg)
+
 ## ERD
+
+[ERD](ERD2.jpg)
+
 
 ## Unsolved Problems
 
