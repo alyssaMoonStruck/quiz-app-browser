@@ -63,7 +63,7 @@ class App extends Component {
             <ChangePassword msgAlert={this.msgAlert} user={user} />
           )} />
           <AuthenticatedRoute user={user} path='/quiz' render={() => (
-            <Quiz />
+            <Quiz user={user} />
           )}/>
           <AuthenticatedRoute user={user} path='/my-questions' render={ () => (
             <Questions user={user} msgAlert={this.msgAlert}/>

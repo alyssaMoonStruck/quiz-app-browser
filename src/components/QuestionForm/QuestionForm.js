@@ -4,25 +4,6 @@ import { Link } from 'react-router-dom'
 import Form from 'react-bootstrap/Form'
 
 const QuestionForm = ({ question, handleSubmit, handleChange, cancelPath }) => {
-  //  Right now this will only re-return [rerender] if the above object changes
-
-  /* Life cycle replacements */
-  // If you want to give this more autonomy,
-  // use:
-  //    `const [ variable, setVariable ] = useState(type or null)`
-  // then use:
-  //   `useEffect(*function*, [variable])`
-  // Typically the *function* above is an api call to load into a state variable
-  // Safe space to manipulate state using:
-  //    `setVaiable(Whatever)`
-
-  /* Actions */
-  // then you can either make handlers like:
-  // `const handleClick = () => setVaiable(!variable)
-  // in the jsx below
-
-  // this is your area to do stuff
-  // *THAAT DOES NOT MANIPULATE STATE*
   return (
     <div className="row2">
       <div className="col-sm-10 col-md-8 mx-auto mt-5">

@@ -1,16 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-const QuestionBox = ({ question, options, selected }) => {
-  const [choices, setChoices] = useState(options)
+const QuestionBox = ({ question, selected }) => {
   return (
     <div className='questionBox'>
-      <div className='question'>{question}</div>
-      {choices.map((text, index) => (
+      <div className='question'>{question.question}</div>
+      {question.answers.map((text, index) => (
         <button
           key={index}
-          className='answerBtn btn btn-outline-danger'
+          className={`answerBtn btn ${question.response !== text ? 'btn-outline-danger' : 'btn-danger'}`}
           onClick={e => {
-            setChoices([text])
             selected(text)
           }}
         >
